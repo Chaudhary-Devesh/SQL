@@ -26,6 +26,6 @@
 
 -- ALTER TABLE programmer MODIFY COLUMN email VARCHAR(100) AFTER id;
 
--- ALTER TABLE programmer MODIFY COLUMN date_of_birth DATETIME FIRST; 
+ALTER TABLE programmer MODIFY COLUMN date_of_birth DATETIME FIRST; 
 
 select * from programmer;
